@@ -5,10 +5,10 @@ DocMeta.setdocmeta!(AMOCStochasticBoxModel, :DocTestSetup, :(using AMOCStochasti
 
 makedocs(;
     modules=[AMOCStochasticBoxModel],
-    authors="Matt Graham <matthew.m.graham@gmail.com> and contributors",
+    authors="Matt Graham and contributors",
     sitename="AMOCStochasticBoxModel.jl",
     format=Documenter.HTML(;
-        canonical="https://matt-graham.github.io/AMOCStochasticBoxModel.jl",
+        canonical="https://github-pages.ucl.ac.uk/AMOCStochasticBoxModel.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/matt-graham/AMOCStochasticBoxModel.jl",
+    repo="github.com/UCL/AMOCStochasticBoxModel.jl",
     devbranch="main",
 )
